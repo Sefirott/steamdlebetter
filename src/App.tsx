@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import Dashboard from "./components/dashboard.tsx";
+import './App.css'
 
-function App() {
+const App = () => {
 
   return (
     <>
-
+    <Dashboard/>
     </>
   )
 }
