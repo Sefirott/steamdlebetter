@@ -147,7 +147,7 @@ export const useSteamReviews =(appId: string | number, options: UseSteamReviewsO
       const res = await fetch(url, {
         method: 'GET',
         headers: {
-          // Note: Steam endpoint may restrict CORS. In such case, set up a dev proxy in Vite.
+          // Note: Steam endpoint may restrict CORS. In such a case, set up a dev proxy in Vite.
         },
         signal: controller.signal,
       });
